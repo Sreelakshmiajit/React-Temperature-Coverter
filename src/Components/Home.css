@@ -1,0 +1,23 @@
+/* Set the background image to cover the entire page */
+.background-container {
+    background-image: url('https://egqusrjtrmt.exactdn.com/wp-content/uploads/2022/12/temperature-converter-facebook.jpg?strip=all&lossy=1&ssl=1');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the form to appear nicely over the background */
+  .form-container {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: #fff; /* Light text for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    width: 90%;
+    max-width: 400px;
+  }
+  
